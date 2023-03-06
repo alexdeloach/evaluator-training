@@ -1,0 +1,201 @@
+/* https://content.codecademy.com/courses/freelance-1/unit-4/img-tea-cozy-redline.jpg?_gl=1*754bnn*_ga*NzE3NjI5MDAxNC4xNjczNTgwMTY5*_ga_3LRZM6TM9L*MTY3NDYxNzkyOS4zOC4xLjE2NzQ2MjA3NTEuNTguMC4w */
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+.header {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../tipisa_preordeal.png") center/cover;
+    padding-bottom: 1rem;
+    margin: 0;
+    min-height: 20rem;
+}
+
+.menu {
+    display:flex;
+    justify-content: space-around;
+    border: seashell;
+    margin-left: 20%;
+}
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+    color: white;
+    border-bottom: 0.5rem solid red;
+    margin: 5% 20%;
+}
+
+.navigation {
+    display:inline-flex;
+    list-style: none;
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+}
+
+.navigation:active {
+    font-weight: bold;
+}
+
+.navigation:hover {
+    color: grey;
+}
+
+.intro {
+    margin: 0 4rem;
+}
+
+h2 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.links {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 10%;
+}
+
+a.link {
+    background-color: rgba(255,0,0,1);
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+a.link:active {
+    font-weight: bold;
+}
+
+a.link:hover {
+    background-color: rgba(255,0,0,.75);
+}
+
+main {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h3 {
+    margin: 0;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.video {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.exemplar {
+    margin: 0px 100px;
+    text-align: center;
+}
+
+.youtube {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+    margin-top: .75rem;
+  }
+  
+.responsive {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.sub {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 10%;
+}
+
+a.sublink {
+    background-color: rgba(255,0,0,1);
+    padding: .1rem 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 12rem;
+    text-align: center;
+}
+
+a.sublink:active {
+    font-weight: bold;
+}
+
+a.sublink:hover {
+    background-color: rgba(255,0,0,.75);
+}
+
+a.open {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.documents {
+    margin: 0 15%;
+    border: .1rem solid black;
+}
+
+.eval {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 10%;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+
+a.document {
+    background-color: rgb(68, 66, 66);
+    padding: .1rem .1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 15rem;
+    text-align: center;
+}
+
+a.document:active {
+    font-weight: bold;
+}
+
+a.document:hover {
+    background-color: rgba(68,66,66,.75);
+}
+
+.contact {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
